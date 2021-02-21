@@ -52,6 +52,9 @@ class TicTacToe
 
   def current_player
     turn_count % 2 > 0 ? "O" : "X"
+    # add to beginning of this line ^ the following "@current_player = " IF we want to access current player as an instance variable
   end
+
+
 
 end
