@@ -62,6 +62,9 @@ class TicTacToe
     if valid_move?(index)
       move(index, current_player)
     else
+      puts "Sorry, that is not a valid move."
+      turn
+    end
 
   end
 
