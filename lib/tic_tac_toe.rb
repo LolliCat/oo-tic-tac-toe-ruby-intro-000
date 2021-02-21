@@ -55,6 +55,8 @@ class TicTacToe
     # add to beginning of this line ^ the following "@current_player = " IF we want to access current player as an instance variable
   end
 
+  def turn
 
+  end
 
 end
